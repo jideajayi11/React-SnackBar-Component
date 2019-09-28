@@ -1,7 +1,7 @@
 {
   "name": "react-snackbar-component",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a react component for adding a Snackbar",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/jideajayi11/React-SnackBar-Component.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ajayi Babajide <jideajayi11@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jideajayi11/React-SnackBar-Component/issues"
