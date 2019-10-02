@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import './SnackBar.css';
+import './SnackBar.scss';
 
 const snackBar = ({ isShowing, text, displayTime, customClass, showCloseBtn }) => {
   customClass = typeof customClass !== 'undefined' ? ' '+customClass : '';

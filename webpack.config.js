@@ -19,7 +19,11 @@ module.exports = {  entry: './src/index.js',
   output: {
     path: __dirname + '/dist',
     publicPath: '/',
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    libraryTarget: 'commonjs2'
+  },
+  externals: {
+    'react': 'commonjs react' // this line is just to use the React dependency of our parent-testing-project instead of using our own React.
   },
   devServer: {
     contentBase: './dist'
