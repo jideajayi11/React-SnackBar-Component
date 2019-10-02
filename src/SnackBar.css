@@ -1,0 +1,22 @@
+.snackbarContainer {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: fit-content;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px 10px;
+  color: #fff;
+  margin-top: 20px;
+  display: none;
+}
+
+.snackbarShow {
+  display: block;
+}
+
+.closeBtn {
+  float: right;
+}
+
+.closeBtn:hover {
+  color: rgb(236, 48, 48);
+  cursor: pointer;
+}
